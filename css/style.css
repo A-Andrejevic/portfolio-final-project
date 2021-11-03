@@ -12,10 +12,16 @@ body {
 h1 {
     font-size: 80px;
     font-weight: bolder;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 h2 {
     font-size: 60px;
+}
+
+h3 {
+    color: white;
 }
 
 .intro {
@@ -30,12 +36,18 @@ h2 {
 
 .intro span {
     font-size:25px;
+    
 }
 
 #home-photo {
   border-radius: 300px;
   margin-top: 100px;
   
+}
+
+#projects-h1 {
+    text-align: center;
+    color:white;
 }
 
 @media (max-width: 1400px) {
