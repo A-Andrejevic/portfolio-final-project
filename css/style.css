@@ -1,3 +1,45 @@
+:root {
+    --text-color: blanchedalmond;
+}
+
+
 body {
   font-family: "Noto Sans", sans-serif;
+  background-color: black;
+  color: var(--text-color);
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+.intro {
+  text-align: center;
+
+  margin-top: 200px;
+}
+
+.intro p {
+    font-size: 40px;
+}
+
+.intro span {
+    font-size:25px;
+}
+
+#home-photo {
+  border-radius: 300px;
+  margin-top: 100px;
+  
+}
+
+@media (max-width: 1400px) {
+    .intro {
+        margin-top: 100px;
+    }
 }
