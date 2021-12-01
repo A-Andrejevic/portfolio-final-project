@@ -38,6 +38,17 @@ ul {
 
   text-align: center;
 }
+p {
+  line-height: 2;
+}
+
+footer {
+  display: block;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 15px;
+}
 
 li {
   padding: 20px;
@@ -60,18 +71,6 @@ li {
 .connect-icon {
   font-size: 350px;
   color: var(--link-color);
-}
-
-.container p {
-  line-height: 2;
-}
-
-footer {
-  display: block;
-  margin-top: 60px;
-  margin-bottom: 15px;
-  text-align: center;
-  font-size: 15px;
 }
 
 .footer-icon {
